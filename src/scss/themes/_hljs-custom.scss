@@ -8,44 +8,119 @@
 // 5. Remove `hljs-` of all CSS class name. E.g : `.hljs-comment` becomes `.comment`
 // 6. Comment line 61 (`'themes/tranquilpeak',`) of `source/_css/tranquilpeak.scss` file
 // 7. Run `grunt buildProd` to build the theme and see the result
-/*
+
 // Default code block
 pre > code {
-    background: ;
-    color: ;
+    background: #2d2b57;
+    color: #e3dfff;
 }
 
 // Default inline code
 code {
-    background-color: ;
+    background-color: #ebebeb;
 }
 
 // Tabbed code block tab
 // If your theme is dark then use a lighter background
 // to see clearly which tab is active
 .codeblock--tabbed figcaption .tab.active {
-    background: ;
-    color: ;
+    background: #2d2b57;
+    color: #e3dfff;
 }
 
 // highlight code block
 figure.highlight,
 .codeblock {
-    background: ;
-    color: ;
+    background: #2d2b57;
+    color: #e3dfff;
 
     figcaption {
-        background: ;
-        color: ;
+        background: #2d2b57;
+        color: #e3dfff;
     }
     .gutter {
-        background: ;
-        border-right-color: ;
+        background: #2d2b57;
+        border-right-color: #2d2b57;
         .line {
-            color: ;
+            color: #e3dfff;
         }
     }
     // PUT YOUR THEME HERE
+    .subst {
+        color: #e3dfff;
+    }
 
+    .title {
+        color: #fad000;
+        font-weight: normal;
+    }
+
+    .name {
+        color: #a1feff;
+    }
+
+    .tag {
+        color: #ffffff;
+    }
+
+    .attr {
+        color: #f8d000;
+        font-style: italic;
+    }
+
+    .built_in,
+    .selector-tag,
+    .section {
+        color: #fb9e00;
+    }
+
+    .keyword {
+        color: #fb9e00;
+    }
+
+    .string,
+    .attribute,
+    .symbol,
+    .bullet,
+    .addition,
+    .code,
+    .regexp,
+    .selector-class,
+    .selector-attr,
+    .selector-pseudo,
+    .template-tag,
+    .quote,
+    .deletion {
+        color: #4cd213;
+    }
+
+    .meta,
+    .meta-string {
+        color: #fb9e00;
+    }
+
+    .comment {
+        color: #ac65ff;
+    }
+
+    .keyword,
+    .selector-tag,
+    .literal,
+    .name,
+    .strong {
+        font-weight: normal;
+    }
+
+    .literal,
+    .number {
+        color: #fa658d;
+    }
+
+    .emphasis {
+        font-style: italic;
+    }
+
+    .strong {
+        font-weight: bold;
+    }
 }
-*/
